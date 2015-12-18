@@ -1,0 +1,14 @@
+plugins:
+  topic_group_button_url:
+    default: "https://www.twitter.com?topic_id=<TOPIC_ID>&user_id=<USER_ID>&username=<USERNAME>"
+    client: true
+  topic_group_button_title:
+    default: "Start escalation process for this Topic"
+    client: true
+  topic_group_button_label:
+    default: "Escalate"
+    client: true
+  topic_group_button_allowed_group:
+    default: "trust_level_3|trust_level_4|CustomGroup"
+    client: true
+    type: list
