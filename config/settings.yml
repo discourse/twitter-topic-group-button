@@ -1,6 +1,6 @@
 plugins:
   topic_group_button_url:
-    default: "https://www.twitter.com?topic_id=<TOPIC_ID>&user_id=<USER_ID>&username=<USERNAME>"
+    default: "https://twittercommunity.herokuapp.com/escalate?topic_id=<TOPIC_ID>&user_id=<USER_ID>&username=<USERNAME>"
     client: true
   topic_group_button_title:
     default: "Start escalation process for this Topic"
