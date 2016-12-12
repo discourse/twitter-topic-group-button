@@ -1,3 +1,3 @@
-{{#if canSeeTopicGroupButton}}
-  <button class="btn topic-group-button" title="{{customButtonTitle}}" {{action "clickButton"}}>{{customButtonLabel}}</button>
-{{/if}}
+<button class="btn topic-group-button"
+        title={{siteSettings.topic_group_button_title}}
+        {{action "clickButton"}}>{{siteSettings.topic_group_button_label}}</button>
