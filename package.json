@@ -1,0 +1,10 @@
+{
+  "name": "twitter-topic-group-button",
+  "version": "0.1.0",
+  "repository": "https://github.com/discourse-org/twitter-topic-group-button",
+  "author": "Discourse",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-discourse": "^3.1.0"
+  }
+}
