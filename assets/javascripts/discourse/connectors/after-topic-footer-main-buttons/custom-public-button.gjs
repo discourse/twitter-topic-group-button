@@ -13,7 +13,7 @@ export default class CustomPublicButton extends Component {
 
   @action
   clickButton() {
-    const topic = this.args.topic;
+    const topic = this.outletArgs.topic;
     const user = this.currentUser;
     const url = this.siteSettings.topic_group_button_url
       .replace("<TOPIC_ID>", topic.get("model.id"))
